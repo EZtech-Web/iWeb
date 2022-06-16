@@ -4,8 +4,8 @@
     "settingsVersion": "2-63-0",
     "propertyName": "QR-WEB",
     "branding": {
-      "whitelabeled": false,
-      "text": "We're ⚡",
+      "whitelabeled": true,
+      "text": "We T",
       "url": "https://www.tawk.to"
     },
     "widget": {
