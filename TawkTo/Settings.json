@@ -5,8 +5,8 @@
     "propertyName": "QR-WEB",
     "branding": {
       "whitelabeled": true,
-      "text": "We T",
-      "url": "https://www.tawk.to"
+      "text": "",
+      "url": ""
     },
     "widget": {
       "type": "inline",
