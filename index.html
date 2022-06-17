@@ -42,7 +42,23 @@
 <!-- Place your own code above -->
 
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.6.0/jquery-3.6.0.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var removeBranding = function() {
+    try {
+        var element = document.querySelector("iframe[title*=chat]:nth-child(2)").contentDocument.querySelector(`a[class*=tawk-branding]`)
+
+        if (element) {
+            element.remove()
+        }
+    } catch (e) {}
+}
+
+var tick = 100
+
+setInterval(removeBranding, tick)
+</script>
+<!--End of Tawk.to Script-->
   
 </body>
 </html>

@@ -46,7 +46,7 @@
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-webqr-128x142.png",
     "witsec-jquery": "3.6.0",
-    "mbrsiteDomain": "mbxdw4gq8j",
+    "mbrsiteDomain": "6mtu5ye84f",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -56,7 +56,7 @@
     "witsec-mailform": false,
     "witsec-language": false,
     "witsec-white-label": true,
-    "global_footer_custom": "",
+    "global_footer_custom": "<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar removeBranding = function() {\n    try {\n        var element = document.querySelector(\"iframe[title*=chat]:nth-child(2)\").contentDocument.querySelector(`a[class*=tawk-branding]`)\n\n        if (element) {\n            element.remove()\n        }\n    } catch (e) {}\n}\n\nvar tick = 100\n\nsetInterval(removeBranding, tick)\n</script>\n<!--End of Tawk.to Script-->",
     "uniqCompNum": 2,
     "versionPublish": "5.6.9",
     "screenshot": "screenshot.png"
