@@ -46,7 +46,7 @@
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-webqr-128x142.png",
     "witsec-jquery": "3.6.0",
-    "mbrsiteDomain": "6mtu5ye84f",
+    "mbrsiteDomain": "uufuzc30tz",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -56,7 +56,7 @@
     "witsec-mailform": false,
     "witsec-language": false,
     "witsec-white-label": true,
-    "global_footer_custom": "<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar removeBranding = function() {\n    try {\n        var element = document.querySelector(\"iframe[title*=chat]:nth-child(2)\").contentDocument.querySelector(`a[class*=tawk-branding]`)\n\n        if (element) {\n            element.remove()\n        }\n    } catch (e) {}\n}\n\nvar tick = 100\n\nsetInterval(removeBranding, tick)\n</script>\n<!--End of Tawk.to Script-->",
+    "global_footer_custom": "",
     "uniqCompNum": 2,
     "versionPublish": "5.6.9",
     "screenshot": "screenshot.png"
@@ -89,11 +89,13 @@
           },
           "_name": "witsec-html-block",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n\n<iframe src=\"https://tawk.to/chat/62a9794bb0d10b6f3e776a4c/1g5j03k8i\" width=\"100%\" height=\"600\" allowfullscreen=\"\"></iframe>\n\n<!-- Place your own code above -->\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n\n<iframe src=\"https://tawk.to/chat/62a9794bb0d10b6f3e776a4c/1g5j03k8i\" width=\"100%\" height=\"600\" allowfullscreen=\"\">\n\n<!--Start of Tawk.to Script-->\n[JS_CODE_0]\n<!--End of Tawk.to Script-->\n\n</iframe>\n\n<!-- Place your own code above -->\n\n</section>",
           "_cid": "t91xlBj3ID",
           "_anchor": "witsec-html-block-1",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\">\nvar removeBranding = function() {\n    try {\n        var element = document.querySelector(\"iframe[title*=chat]:nth-child(2)\").contentDocument.querySelector(`a[class*=tawk-branding]`)\n\n        if (element) {\n            element.remove()\n        }\n    } catch (e) {}\n}\n\nvar tick = 100\n\nsetInterval(removeBranding, tick)\n</script>"
+          ],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
