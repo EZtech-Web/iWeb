@@ -46,7 +46,7 @@
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-webqr-128x142.png",
     "witsec-jquery": "3.6.0",
-    "mbrsiteDomain": "e4p9kgjr77",
+    "mbrsiteDomain": "mbxdw4gq8j",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -56,7 +56,7 @@
     "witsec-mailform": false,
     "witsec-language": false,
     "witsec-white-label": true,
-    "global_footer_custom": "<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://iweb.qr-ez.net/TawkTo/TawkTo.js';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->",
+    "global_footer_custom": "",
     "uniqCompNum": 2,
     "versionPublish": "5.6.9",
     "screenshot": "screenshot.png"
