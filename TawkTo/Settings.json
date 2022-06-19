@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "settingsVersion": "2-63-0",
+    "settingsVersion": "2-90-0",
     "propertyName": "QR-WEB",
     "branding": {
       "whitelabeled": true,
@@ -10,7 +10,7 @@
     },
     "widget": {
       "type": "inline",
-      "version": 59,
+      "version": 86,
       "language": "vi",
       "minimized": {
         "desktop": {
@@ -180,6 +180,14 @@
                 "value": "EZtech Campus 👋",
                 "alignment": "left"
               }
+            },
+            {
+              "id": "text:JyL2j__83Q",
+              "type": "text",
+              "content": {
+                "value": "Hiện tất cả các tư vấn viên điều đang bận. Bạn vui lòng tìm câu trả lời trong bộ thư viện kiến thức của chúng tôi và đợi trong giây lát ...",
+                "alignment": "left"
+              }
             }
           ],
           "body": [
@@ -227,21 +235,21 @@
                     "context": "name"
                   },
                   {
-                    "label": "Số Điện Thoại",
+                    "label": "Số Điện Thoại Liên Hệ",
                     "required": true,
                     "type": "text",
                     "context": "phone",
                     "format": "phone"
                   },
                   {
-                    "label": "Địa Chỉ Email",
+                    "label": "Địa Chỉ Email Nhận Thư Trả Lời",
                     "required": true,
                     "type": "text",
                     "context": "email",
                     "format": "email"
                   },
                   {
-                    "label": "Nội dung cần giải đáp",
+                    "label": "Nội Dung Cần Giải Đáp Hoặc Tư Vấn",
                     "required": true,
                     "type": "textarea"
                   }
