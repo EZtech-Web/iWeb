@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "settingsVersion": "2-90-0",
+    "settingsVersion": "2-99-0",
     "propertyName": "QR-WEB",
     "branding": {
       "whitelabeled": true,
@@ -10,7 +10,7 @@
     },
     "widget": {
       "type": "inline",
-      "version": 86,
+      "version": 92,
       "language": "vi",
       "minimized": {
         "desktop": {
@@ -85,7 +85,7 @@
       "scheduler": {
         "enabled": true,
         "config": {
-          "timezone": "Asia/Ho_Chi_Minh",
+          "timezone": "Etc/GMT-7",
           "schedule": [
             {
               "day": 0,
