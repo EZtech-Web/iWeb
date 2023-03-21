@@ -85,7 +85,7 @@
       "scheduler": {
         "enabled": true,
         "config": {
-          "timezone": "Etc/GMT-7",
+          "timezone": "Asia/Ho_Chi_Minh",
           "schedule": [
             {
               "day": 0,
