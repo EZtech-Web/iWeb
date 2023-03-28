@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "settingsVersion": "2-99-0",
+    "settingsVersion": "2-120-0",
     "propertyName": "QR-WEB",
     "branding": {
       "whitelabeled": true,
@@ -10,7 +10,7 @@
     },
     "widget": {
       "type": "inline",
-      "version": 92,
+      "version": 108,
       "language": "vi",
       "minimized": {
         "desktop": {
@@ -207,6 +207,11 @@
                 "buttonText": "Kết Nối Với Kỹ Thuật Viên",
                 "inputPlaceholder": "Nhập nội dung trao đổi ở đây..."
               }
+            },
+            {
+              "id": "pc:quw9zqFR9j",
+              "type": "previous-conversations",
+              "content": {}
             }
           ],
           "minimizedText": "Không ở bàn"
