@@ -703,8 +703,8 @@ a {
   transition: color 0.6s;
 }
 .cid-7iMOY5dzRq {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background: linear-gradient(0deg, #001d00, #117a00);
   position: fixed;
   left: 0;
